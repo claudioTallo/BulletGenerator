@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 634662012}
   - component: {fileID: 634662011}
   m_Layer: 0
-  m_Name: BulletGenerator
+  m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefabs: {fileID: 2150193516765078418, guid: e1a5d65afbe5b02498e74cb97a368a3e, type: 3}
   delaySpawn: 1
-  intervalSpawn: 2
+  intervalSpawn: 3
 --- !u!4 &634662012
 Transform:
   m_ObjectHideFlags: 0

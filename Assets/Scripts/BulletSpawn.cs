@@ -6,7 +6,7 @@ public class BulletSpawn : MonoBehaviour
 {
     public GameObject bulletPrefabs;
     public float delaySpawn = 1f;
-    public float intervalSpawn = 2f;
+    public float intervalSpawn = 3f;
 
     void Start()
     {
